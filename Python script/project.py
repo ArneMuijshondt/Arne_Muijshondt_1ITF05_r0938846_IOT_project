@@ -51,7 +51,7 @@ uid = "OPI"
 def relay_start(triggercounter):
     j = True
     # Sends new information to ubeac
-    ubeac(1, triggercounter)
+    ubeac(100, triggercounter)
     # Makes the LED light blink, using the relay
     while j:
         wip.digitalWrite(relayPin, 1)
